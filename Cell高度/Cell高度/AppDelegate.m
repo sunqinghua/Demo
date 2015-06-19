@@ -21,7 +21,6 @@
     self.window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     MyTableViewController *root=[[MyTableViewController alloc]initWithStyle:UITableViewStyleGrouped];
     UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:root];
-    
     self.window.rootViewController=nav;
     [self.window makeKeyAndVisible];
     
