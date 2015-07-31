@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YIIBNavigationSearhView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="rVQ-Q0-nVU" customClass="YIIBNavigationSearhView">
+            <rect key="frame" x="0.0" y="1" width="320" height="139"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="终点位置" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5s6-Rm-khA">
+                    <rect key="frame" x="26" y="53" width="246" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="246" id="VNN-iH-hTQ"/>
+                        <constraint firstAttribute="height" constant="30" id="obl-1k-WDX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLs-Da-byE">
+                    <rect key="frame" x="8" y="97" width="302" height="36"/>
+                    <color key="backgroundColor" red="0.1137254902" green="0.64313725489999995" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="搜索">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L88-Yd-33b">
+                    <rect key="frame" x="280" y="38" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="003-SR-pdx"/>
+                        <constraint firstAttribute="height" constant="30" id="mDY-UJ-xa8"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="navigation_search_change.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navigation_search_point.png" translatesAutoresizingMaskIntoConstraints="NO" id="eHj-3j-Cof">
+                    <rect key="frame" x="12" y="42" width="2" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="2" id="eHm-wU-ly5"/>
+                        <constraint firstAttribute="height" constant="18" id="nKc-XD-sCJ"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navigation_search_red.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Vz-ZV-2UE">
+                    <rect key="frame" x="8" y="63" width="10" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="7IE-nb-puh"/>
+                        <constraint firstAttribute="width" constant="10" id="BDy-Zy-tbv"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AF6-of-WJH">
+                    <rect key="frame" x="26" y="50" width="250" height="1"/>
+                    <color key="backgroundColor" red="0.77199731691919193" green="0.77199731691919193" blue="0.77199731691919193" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="Ps4-HS-pEv"/>
+                        <constraint firstAttribute="height" constant="1" id="R5G-7A-wBA"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="起始位置" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hTH-Pb-rrC">
+                    <rect key="frame" x="26" y="20" width="246" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="KFS-aC-oqC"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="246" id="SfV-U6-JFR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navigation_search_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y3h-6a-ekL">
+                    <rect key="frame" x="8" y="30" width="10" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="NoJ-aY-xZ9"/>
+                        <constraint firstAttribute="width" constant="10" id="SPy-N2-SCO"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="L88-Yd-33b" firstAttribute="top" secondItem="rVQ-Q0-nVU" secondAttribute="top" constant="38" id="2b8-PS-RX7"/>
+                <constraint firstItem="eHj-3j-Cof" firstAttribute="leading" secondItem="rVQ-Q0-nVU" secondAttribute="leading" constant="12" id="3eu-IN-gAP"/>
+                <constraint firstItem="L88-Yd-33b" firstAttribute="leading" secondItem="hTH-Pb-rrC" secondAttribute="trailing" constant="8" id="4U5-bX-Kze"/>
+                <constraint firstItem="hTH-Pb-rrC" firstAttribute="leading" secondItem="Y3h-6a-ekL" secondAttribute="trailing" constant="8" id="5LO-00-a8s"/>
+                <constraint firstItem="5s6-Rm-khA" firstAttribute="top" secondItem="hTH-Pb-rrC" secondAttribute="bottom" constant="3" id="BhV-Tl-Fpl"/>
+                <constraint firstItem="eHj-3j-Cof" firstAttribute="top" secondItem="Y3h-6a-ekL" secondAttribute="bottom" constant="2" id="HtK-4h-qfW"/>
+                <constraint firstItem="AF6-of-WJH" firstAttribute="leading" secondItem="rVQ-Q0-nVU" secondAttribute="leading" constant="26" id="NJV-c7-2yr"/>
+                <constraint firstAttribute="trailing" secondItem="hLs-Da-byE" secondAttribute="trailing" constant="10" id="UwS-aA-0ek"/>
+                <constraint firstAttribute="bottom" secondItem="hLs-Da-byE" secondAttribute="bottom" constant="6" id="c4E-rV-iyz"/>
+                <constraint firstAttribute="trailing" secondItem="L88-Yd-33b" secondAttribute="trailing" constant="10" id="d5u-FX-ucw"/>
+                <constraint firstItem="AF6-of-WJH" firstAttribute="leading" secondItem="eHj-3j-Cof" secondAttribute="trailing" constant="12" id="d8g-LO-GKm"/>
+                <constraint firstItem="AF6-of-WJH" firstAttribute="top" secondItem="hTH-Pb-rrC" secondAttribute="bottom" id="ezA-UN-btE"/>
+                <constraint firstItem="5s6-Rm-khA" firstAttribute="leading" secondItem="3Vz-ZV-2UE" secondAttribute="trailing" constant="8" id="gEB-TB-bfv"/>
+                <constraint firstItem="L88-Yd-33b" firstAttribute="leading" secondItem="5s6-Rm-khA" secondAttribute="trailing" constant="8" id="gyM-qg-8PI"/>
+                <constraint firstItem="Y3h-6a-ekL" firstAttribute="leading" secondItem="rVQ-Q0-nVU" secondAttribute="leading" constant="8" id="jLq-Tp-65c"/>
+                <constraint firstItem="hTH-Pb-rrC" firstAttribute="top" secondItem="rVQ-Q0-nVU" secondAttribute="top" constant="20" id="ktc-cx-EYD"/>
+                <constraint firstItem="hLs-Da-byE" firstAttribute="top" secondItem="5s6-Rm-khA" secondAttribute="bottom" constant="14" id="lEF-cQ-quB"/>
+                <constraint firstItem="hLs-Da-byE" firstAttribute="leading" secondItem="rVQ-Q0-nVU" secondAttribute="leading" constant="8" id="mIj-pU-8xC"/>
+                <constraint firstItem="3Vz-ZV-2UE" firstAttribute="leading" secondItem="rVQ-Q0-nVU" secondAttribute="leading" constant="8" id="n6n-gj-iv5"/>
+                <constraint firstItem="Y3h-6a-ekL" firstAttribute="top" secondItem="rVQ-Q0-nVU" secondAttribute="top" constant="30" id="p8Z-bn-HLF"/>
+                <constraint firstItem="3Vz-ZV-2UE" firstAttribute="top" secondItem="rVQ-Q0-nVU" secondAttribute="top" constant="63" id="uCY-XZ-0z7"/>
+                <constraint firstItem="L88-Yd-33b" firstAttribute="leading" secondItem="AF6-of-WJH" secondAttribute="trailing" constant="4" id="wt5-r2-gGE"/>
+                <constraint firstItem="5s6-Rm-khA" firstAttribute="top" secondItem="AF6-of-WJH" secondAttribute="bottom" constant="2" id="xMq-B2-vx8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="change" destination="L88-Yd-33b" id="uds-CY-r1F"/>
+                <outlet property="curLocation" destination="hTH-Pb-rrC" id="g3E-8i-9z9"/>
+                <outlet property="destionLocation" destination="5s6-Rm-khA" id="wje-4H-hHa"/>
+                <outlet property="search" destination="hLs-Da-byE" id="avd-tn-Ncb"/>
+            </connections>
+            <point key="canvasLocation" x="592" y="133.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="navigation_search_blue.png" width="44" height="44"/>
+        <image name="navigation_search_change.png" width="105" height="102"/>
+        <image name="navigation_search_point.png" width="6" height="54"/>
+        <image name="navigation_search_red.png" width="44" height="44"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

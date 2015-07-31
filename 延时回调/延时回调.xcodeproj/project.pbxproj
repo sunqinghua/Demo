@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842C8CCC1B52331800F945FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C8CCB1B52331800F945FA /* main.m */; };
+		842C8CCF1B52331800F945FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C8CCE1B52331800F945FA /* AppDelegate.m */; };
+		842C8CD21B52331800F945FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C8CD11B52331800F945FA /* ViewController.m */; };
+		842C8CD51B52331800F945FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842C8CD31B52331800F945FA /* Main.storyboard */; };
+		842C8CD71B52331800F945FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842C8CD61B52331800F945FA /* Images.xcassets */; };
+		842C8CDA1B52331800F945FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842C8CD81B52331800F945FA /* LaunchScreen.xib */; };
+		842C8CE61B52331800F945FA /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C8CE51B52331800F945FA /* ____Tests.m */; };
+		842C8CF11B52345800F945FA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C8CF01B52345800F945FA /* LoginViewController.m */; };
+		842C8CF41B52358700F945FA /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C8CF31B52358700F945FA /* UserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842C8CE01B52331800F945FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842C8CBE1B52331800F945FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842C8CC51B52331800F945FA;
+			remoteInfo = "延时回调";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842C8CC61B52331800F945FA /* 延时回调.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "延时回调.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842C8CCA1B52331800F945FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842C8CCB1B52331800F945FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842C8CCD1B52331800F945FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842C8CCE1B52331800F945FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842C8CD01B52331800F945FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		842C8CD11B52331800F945FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		842C8CD41B52331800F945FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842C8CD61B52331800F945FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		842C8CD91B52331800F945FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		842C8CDF1B52331800F945FA /* 延时回调Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "延时回调Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842C8CE41B52331800F945FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842C8CE51B52331800F945FA /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		842C8CEF1B52345800F945FA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		842C8CF01B52345800F945FA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		842C8CF21B52358700F945FA /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		842C8CF31B52358700F945FA /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842C8CC31B52331800F945FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842C8CDC1B52331800F945FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842C8CBD1B52331800F945FA = {
+			isa = PBXGroup;
+			children = (
+				842C8CC81B52331800F945FA /* 延时回调 */,
+				842C8CE21B52331800F945FA /* 延时回调Tests */,
+				842C8CC71B52331800F945FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842C8CC71B52331800F945FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842C8CC61B52331800F945FA /* 延时回调.app */,
+				842C8CDF1B52331800F945FA /* 延时回调Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842C8CC81B52331800F945FA /* 延时回调 */ = {
+			isa = PBXGroup;
+			children = (
+				842C8CCD1B52331800F945FA /* AppDelegate.h */,
+				842C8CCE1B52331800F945FA /* AppDelegate.m */,
+				842C8CD01B52331800F945FA /* ViewController.h */,
+				842C8CD11B52331800F945FA /* ViewController.m */,
+				842C8CEF1B52345800F945FA /* LoginViewController.h */,
+				842C8CF01B52345800F945FA /* LoginViewController.m */,
+				842C8CF21B52358700F945FA /* UserViewController.h */,
+				842C8CF31B52358700F945FA /* UserViewController.m */,
+				842C8CD31B52331800F945FA /* Main.storyboard */,
+				842C8CD61B52331800F945FA /* Images.xcassets */,
+				842C8CD81B52331800F945FA /* LaunchScreen.xib */,
+				842C8CC91B52331800F945FA /* Supporting Files */,
+			);
+			path = "延时回调";
+			sourceTree = "<group>";
+		};
+		842C8CC91B52331800F945FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842C8CCA1B52331800F945FA /* Info.plist */,
+				842C8CCB1B52331800F945FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		842C8CE21B52331800F945FA /* 延时回调Tests */ = {
+			isa = PBXGroup;
+			children = (
+				842C8CE51B52331800F945FA /* ____Tests.m */,
+				842C8CE31B52331800F945FA /* Supporting Files */,
+			);
+			path = "延时回调Tests";
+			sourceTree = "<group>";
+		};
+		842C8CE31B52331800F945FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842C8CE41B52331800F945FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842C8CC51B52331800F945FA /* 延时回调 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842C8CE91B52331800F945FA /* Build configuration list for PBXNativeTarget "延时回调" */;
+			buildPhases = (
+				842C8CC21B52331800F945FA /* Sources */,
+				842C8CC31B52331800F945FA /* Frameworks */,
+				842C8CC41B52331800F945FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "延时回调";
+			productName = "延时回调";
+			productReference = 842C8CC61B52331800F945FA /* 延时回调.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842C8CDE1B52331800F945FA /* 延时回调Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842C8CEC1B52331800F945FA /* Build configuration list for PBXNativeTarget "延时回调Tests" */;
+			buildPhases = (
+				842C8CDB1B52331800F945FA /* Sources */,
+				842C8CDC1B52331800F945FA /* Frameworks */,
+				842C8CDD1B52331800F945FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842C8CE11B52331800F945FA /* PBXTargetDependency */,
+			);
+			name = "延时回调Tests";
+			productName = "延时回调Tests";
+			productReference = 842C8CDF1B52331800F945FA /* 延时回调Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842C8CBE1B52331800F945FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					842C8CC51B52331800F945FA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					842C8CDE1B52331800F945FA = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 842C8CC51B52331800F945FA;
+					};
+				};
+			};
+			buildConfigurationList = 842C8CC11B52331800F945FA /* Build configuration list for PBXProject "延时回调" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842C8CBD1B52331800F945FA;
+			productRefGroup = 842C8CC71B52331800F945FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842C8CC51B52331800F945FA /* 延时回调 */,
+				842C8CDE1B52331800F945FA /* 延时回调Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842C8CC41B52331800F945FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842C8CD51B52331800F945FA /* Main.storyboard in Resources */,
+				842C8CDA1B52331800F945FA /* LaunchScreen.xib in Resources */,
+				842C8CD71B52331800F945FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842C8CDD1B52331800F945FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842C8CC21B52331800F945FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842C8CF11B52345800F945FA /* LoginViewController.m in Sources */,
+				842C8CF41B52358700F945FA /* UserViewController.m in Sources */,
+				842C8CD21B52331800F945FA /* ViewController.m in Sources */,
+				842C8CCF1B52331800F945FA /* AppDelegate.m in Sources */,
+				842C8CCC1B52331800F945FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842C8CDB1B52331800F945FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842C8CE61B52331800F945FA /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842C8CE11B52331800F945FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842C8CC51B52331800F945FA /* 延时回调 */;
+			targetProxy = 842C8CE01B52331800F945FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842C8CD31B52331800F945FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842C8CD41B52331800F945FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842C8CD81B52331800F945FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842C8CD91B52331800F945FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842C8CE71B52331800F945FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842C8CE81B52331800F945FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842C8CEA1B52331800F945FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "延时回调/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		842C8CEB1B52331800F945FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "延时回调/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		842C8CED1B52331800F945FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "延时回调Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/延时回调.app/延时回调";
+			};
+			name = Debug;
+		};
+		842C8CEE1B52331800F945FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "延时回调Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/延时回调.app/延时回调";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842C8CC11B52331800F945FA /* Build configuration list for PBXProject "延时回调" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C8CE71B52331800F945FA /* Debug */,
+				842C8CE81B52331800F945FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842C8CE91B52331800F945FA /* Build configuration list for PBXNativeTarget "延时回调" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C8CEA1B52331800F945FA /* Debug */,
+				842C8CEB1B52331800F945FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		842C8CEC1B52331800F945FA /* Build configuration list for PBXNativeTarget "延时回调Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C8CED1B52331800F945FA /* Debug */,
+				842C8CEE1B52331800F945FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842C8CBE1B52331800F945FA /* Project object */;
+}

@@ -1,0 +1,68 @@
+//
+//  IndoorLocation.pch
+//  IndoorLocation
+//
+//  Created by admin on 15/7/21.
+//  Copyright (c) 2015年 Weconex. All rights reserved.
+//
+
+#import "YIToast.h"
+
+#ifndef IndoorLocation_IndoorLocation_pch
+
+
+#define IndoorLocation_IndoorLocation_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+
+#define LOGO_INFO NSLog(@"File: %s, line: %d\n [%@ %@]", __FILE__, __LINE__, [[self class] description], NSStringFromSelector(_cmd));
+
+#ifndef __OPTIMIZE__
+#   define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#   define NSLog(...) {}
+#endif
+/**   生产环境
+ **地址:124.232.156.188:9081
+ ** api_baseurl 为一般请求链接地址（使用api_baseurl+“地址” 来区分不同请求）
+ ** API_URL  为加密请求地址（使用业务码serCode来区分不同请求，登录模块 、IBeacon模块 等使用..）
+ **/
+#define api_baseurl @"http://124.232.142.89:9081/vas-openapi/api/"
+#define API_URL     @"http://124.232.142.89:9081/vas-openapi/api/v2/vas"
+
+/**   长沙1测试环境
+ **地址:220.168.94.226:9081
+ ** api_baseurl 为一般请求链接地址（使用api_baseurl+“地址” 来区分不同请求）
+ ** API_URL  为加密请求地址（使用业务码serCode来区分不同请求，登录模块 、IBeacon模块 等使用..）
+ **/
+//#define api_baseurl @"http://220.168.94.226:9081/vas-openapi/api/"
+//#define API_URL     @"http://220.168.94.226:9081/vas-openapi/api/v2/vas"
+
+/**
+ **请求超时时间
+ **/
+#define TimeOutSeconds 20
+
+/**
+ *接口联调地址
+ */
+//#define api_baseurl @"http://172.16.0.89:9081/vas-openapi/api/"
+//#define API_URL     @"http://172.16.0.89:9081/vas-openapi/api/v2/vas"
+
+//#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000
+//#define IOS7_SDK_AVAILABLE 1
+//#endif
+//
+//#ifdef IOS7_SDK_AVAILABLE
+//...
+//#endif
+/**
+ *  应用版本号
+ */
+#define version_str @"ver_1.0.0"
+#define KMainScreenSize [UIScreen mainScreen].bounds.size
+#define KResourcesPrefix  [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"WeconexSDKResources.bundle"]
